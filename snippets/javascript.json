@@ -1,0 +1,38 @@
+{
+/*
+	// Place your snippets for Javascript (Babel) here. Each snippet is defined under a snippet name and has a prefix, body and 
+	// description. The prefix is what is used to trigger the snippet and the body will be expanded and inserted. Possible variables are:
+	// $1, $2 for tab stops, $0 for the final cursor position, and ${1:label}, ${2:another} for placeholders. Placeholders with the 
+	// same ids are connected.
+	// Example:
+	"Print to console": {
+		"prefix": "log",
+		"body": [
+			"console.log('$1');",
+			"$2"
+		],
+		"description": "Log output to console"
+	}
+*/
+	"Require": {
+		"prefix": "require",
+		"body": [
+			"const $2 = require('$1');$0"
+		],
+		"description": "Require a module"
+	},
+
+	"Import": {
+		"prefix": "import",
+		"body": [
+			"import $2 from '$1';$0"
+		],
+		"description": "Import a module"
+	},
+
+	"Log to the console": {
+		"prefix": "clog",
+		"body": "console.log(${2:'$1'})$0",
+		"description": "Log output to the console"
+	}
+}

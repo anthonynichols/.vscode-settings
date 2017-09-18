@@ -1,0 +1,76 @@
+{
+    "auto-close-tag.enableAutoCloseSelfClosingTag": true,
+    "auto-close-tag.enableAutoCloseTag": true,
+    "auto-close-tag.fullMode": false,
+    "auto-close-tag.SublimeText3Mode": true,
+    "css.colorDecorators.enable": false,
+    "editor.autoIndent": false,
+    "editor.cursorBlinking": "solid",
+    "editor.dragAndDrop": false,
+    "editor.fontFamily": "Fira Code",
+    "editor.fontLigatures": true,
+    "editor.fontSize": 16,
+    "editor.minimap.enabled": false,
+    "editor.wordWrap": "on",
+    "emmet.preferences": {
+        "css.autoInsertVendorPrefixes": false,
+        "css.propertyEnd": ";",
+        "css.syntaxes": [
+            "css",
+            "less",
+            "scss"
+        ],
+        "sass.propertyEnd": "",
+        "sass.autoInsertVendorPrefixes": false,
+        "stylus.autoInsertVendorPrefixes": false,
+        "stylus.propertyEnd": "",
+        "stylus.valueSeparator": ": "
+    },
+    "emmet.showExpandedAbbreviation": "inMarkupAndStylesheetFilesOnly",
+    "emmet.triggerExpansionOnTab": true,
+    "explorer.openEditors.visible": 0,
+    "files.exclude": {
+        "**/.git": true,
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/CVS": true,
+        "**/.DS_Store": true
+    },
+    "javascript.validate.enable": false,
+    "less.scannerExclude": [
+        "**/.git",
+        "**/bower_components"
+    ],
+    "path-intellisense.mappings": {
+        "~": "${workspaceRoot}/src"
+    },
+    "scss.colorDecorators.enable": true,
+    "sortImports.onSave": false,
+    "terminal.external.osxExec": "iTerm.app",
+    "terminal.integrated.fontFamily": "Fira Code",
+    "terminal.integrated.fontLigatures": true,
+    "terminal.integrated.fontSize": 14,
+    "todohighlight.keywords": [
+        {
+            "text": "TODO:", // custom text to be highlighted
+            "color": "#00aaff", // the text color, any css color identifier is valid
+            "backgroundColor": "transparent" // the text background color
+        },
+        {
+            "text": "FIXME:",
+            "color": "#ec5840",
+            "backgroundColor": "transparent"
+        },
+        {
+            "text": "NOTE:",
+            "color": "#5bc0de",
+            "backgroundColor": "transparent"
+        }
+    ],
+    "window.zoomLevel": 0,
+    "workbench.iconTheme": "vscode-icons",
+    "editor.formatOnSave": false,
+    "vsicons.presets.jsOfficial": true,
+    "vsicons.presets.tsOfficial": true,
+    "editor.snippetSuggestions": "top"
+}

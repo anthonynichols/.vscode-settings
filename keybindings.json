@@ -1,0 +1,17 @@
+// Place your key bindings in this file to overwrite the defaults
+[
+    {
+        "key": "cmd+l",
+        "command": "expandLineSelection",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "cmd+i",
+        "command": "-expandLineSelection",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "cmd+e",
+        "command": "-actions.find"
+    }
+]
