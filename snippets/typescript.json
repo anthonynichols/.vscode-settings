@@ -15,10 +15,26 @@
 	}
 */
 	"Import": {
-		"prefix": "import",
+		"prefix": "imp",
 		"body": [
 			"import $2 from '$1';$0"
 		],
 		"description": "Import a module"
 	},
+
+	"Export": {
+		"prefix": "exp",
+		"body": [
+			"export $2 from '$1';$0"
+		],
+		"description": "Export a module"
+	},
+
+	"Export All": {
+		"prefix": "expa",
+		"body": [
+			"export * from '$1';$0"
+		],
+		"description": "Export all from a module"
+	}
 }
